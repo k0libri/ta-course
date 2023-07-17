@@ -1,0 +1,20 @@
+{
+  "name": "ta-course",
+  "version": "1.0.0",
+  "description": "Automated Testing with JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "k0libri",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/k0libri/ta-course.git"
+  },
+  "bugs": {
+    "url": "https://github.com/k0libri/ta-course/issues"
+  },
+  "homepage": "https://github.com/k0libri/ta-course#readme"
+}
