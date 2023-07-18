@@ -1,10 +1,11 @@
 {
   "name": "ta-course",
+  "type": "module",
   "version": "1.0.0",
   "description": "Automated Testing with JavaScript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "keywords": [],
   "author": "k0libri",
@@ -16,5 +17,16 @@
   "bugs": {
     "url": "https://github.com/k0libri/ta-course/issues"
   },
-  "homepage": "https://github.com/k0libri/ta-course#readme"
+  "homepage": "https://github.com/k0libri/ta-course#readme",
+  "devDependencies": {
+    "eslint": "^8.45.0",
+    "eslint-config-google": "^0.14.0"
+  },
+  "dependencies": {
+    "c8": "^8.0.0",
+    "chai": "^4.3.7",
+    "husky": "^8.0.3",
+    "mocha": "^10.2.0",
+    "mochawesome": "^7.1.3"
+  }
 }
