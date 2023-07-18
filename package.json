@@ -2,7 +2,7 @@
   "name": "ta-course",
   "type": "module",
   "version": "1.0.0",
-  "description": "Automated Testing with JavaScript",
+  "description": "unit testing example",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
